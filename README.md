@@ -8,7 +8,7 @@
 
 本工具旨在帮助企业快速定位漏洞修复漏洞,仅限授权安全测试使用!
 
-严格遵守《中华人民共和国网络安全法》,禁止未授权非法攻击站点!
+严格遵守《中华人民共和国网络安全法》,禁止未授权非法攻击站点！
 
 由于用户滥用造成的一切后果与作者无关。
 
@@ -65,9 +65,9 @@ python .\ecology_oa_FileDownloadForOutDoc_sql.py -u http://123.abc.com -e
 ![image](https://github.com/FeiNiao/ecology_oa_FileDownloadForOutDoc_sql./assets/66779835/5fcfc72b-527a-4e84-b778-eda416856200)
 
 
-Okay！
+Okay!
 
-此脚本是根据https://github.com/izzz0 该作者进行学习改编而来，代码规范很好，今后的代码也会按照这样的规范进行编写。Thanks！
+此脚本是根据https://github.com/izzz0 该作者进行学习改编而来，个人代码规范很好，今后的代码也会按照这样的规范进行编写。Thanks！
 
 
 
