@@ -67,7 +67,7 @@ python .\ecology_oa_FileDownloadForOutDoc_sql.py -u http://123.abc.com -e
 
 Okay!
 
-此脚本是根据https://github.com/izzz0 该作者进行学习改编而来，个人代码规范很好，今后的代码也会按照这样的规范进行编写。Thanks！
+此脚本是根据https://github.com/izzz0 该作者进行学习改编而来，个人觉得代码规范很好，今后的代码也会按照这样的规范进行编写。Thanks！
 
 
 
