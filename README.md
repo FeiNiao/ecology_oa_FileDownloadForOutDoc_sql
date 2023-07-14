@@ -22,7 +22,54 @@ python .\ecology_oa_FileDownloadForOutDoc_sql.py -h
 ```
 
 效果图
-![image](https://github.com/FeiNiao/ecology_oa_FileDownloadForOutDoc_sql./assets/66779835/8214544c-8e35-4967-a949-5dabf874074a)
+
+![image](https://github.com/FeiNiao/ecology_oa_FileDownloadForOutDoc_sql./assets/66779835/626987d3-52a9-4137-8231-bd9d09501986)
+
+#### 参数介绍
+单url检测
+```
+python .\ecology_oa_FileDownloadForOutDoc_sql.py -u http://123.abc.com
+```
+效果图
+
+![image](https://github.com/FeiNiao/ecology_oa_FileDownloadForOutDoc_sql./assets/66779835/c1161bf2-e85d-46a5-8601-fc6bcda06afd)
+
+
+多url检测(txt文本形式)，最后疑似存在延时注入的url都会存储到当前目录下的`res.txt`中
+```
+python .\ecology_oa_FileDownloadForOutDoc_sql.py -f host.txt
+```
+效果图
+
+![image](https://github.com/FeiNiao/ecology_oa_FileDownloadForOutDoc_sql./assets/66779835/66a40319-0af6-4ebc-808c-21d3dcf848ed)
+
+
+
+遍历目标当前数据库名
+```
+python .\ecology_oa_FileDownloadForOutDoc_sql.py -u http://123.abc.co -db
+```
+效果图
+
+![image](https://github.com/FeiNiao/ecology_oa_FileDownloadForOutDoc_sql./assets/66779835/d6024258-fdce-4e79-ad03-2d0dfb19c9a0)
+
+
+
+遍历sysadmin用户的数据密文，此密文需要进行md5解密
+```
+python .\ecology_oa_FileDownloadForOutDoc_sql.py -u http://123.abc.com -e 
+```
+
+效果图
+
+![image](https://github.com/FeiNiao/ecology_oa_FileDownloadForOutDoc_sql./assets/66779835/5fcfc72b-527a-4e84-b778-eda416856200)
+
+
+
+
+
+
+
 
 
 
